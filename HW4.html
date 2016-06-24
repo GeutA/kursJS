@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<script>
+// HomeWork Js lev.1. lesson 4
+
+// paragraph 1
+
+function min(x, y) {
+  ( x > y ) ? console.log( y ) : console.log( x );
+}
+console.log(min(0, -10)); 
+
+// paragraph 2
+
+function CountSymbol( str, x ) {
+	var count = 0;
+	pos = str.indexOf( x );
+	while ( pos != -1 ) {
+	count++;
+	pos = str.indexOf( x ,pos+1);
+	}
+	console.log(count); 
+}
+
+CountSymbol( 'BABY', 'B'  ); 
+
+	
+</script>
